@@ -9,4 +9,8 @@ public class MyController {
 public String index() {
 return "HelloWorld";
 		}
+@GetMapping(path="/hello")
+public String index() {
+return "Hello geek";
+		}
 }
